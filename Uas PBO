@@ -1,0 +1,22 @@
+class CoffeeShop{
+    String IdPesanan;
+    String TanggalPesanan;
+    String MenuPesanan;
+    String HargaPesanan;
+}
+public class ObjectorientedProgramming {
+    public static void main (String[] args) {
+
+        CoffeeShop CoffeeShopku=new CoffeeShop();
+        CoffeeShopku.IdPesanan="001";
+        CoffeeShopku.TanggalPesanan="14";
+        CoffeeShopku.MenuPesanan="CoffeeShop";
+        CoffeeShopku.HargaPesanan="50.000";
+
+        System.out.println("IdPesanan "+CoffeeShopku.IdPesanan);
+        System.out.println("TanggalPesanan  "+CoffeeShopku.TanggalPesanan);
+        System.out.println("MenuPesanan "+CoffeeShopku.MenuPesanan);
+        System.out.println("HargaPesanan "+CoffeeShopku.HargaPesanan);
+
+    }
+}
